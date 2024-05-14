@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43b0508-60ed-4646-90a9-47bff99d0b19" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/consoleapp/infrastructure/SystemRealTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/infrastructure/System.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/infrastructure/System.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/logic/AppLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/AppLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/neopragma/consoleapp/infrastructure/SystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/consoleapp/infrastructure/SystemNullTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,14 @@
     "last_opened_file_path": "/Users/davidnicolette/Documents/Projects/java-console-aframe-template/java-aframe-console-template"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.neopragma.consoleapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neopragma.consoleapp.infrastructure" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
