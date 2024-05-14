@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43b0508-60ed-4646-90a9-47bff99d0b19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/infrastructure/OutputTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/infrastructure/System.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/infrastructure/SystemOutputEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/infrastructure/SystemOutputListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/logic/AppLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/consoleapp/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/consoleapp/infrastructure/OutputTrackerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/consoleapp/infrastructure/SystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/infrastructure/System.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/infrastructure/System.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/logic/AppLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/consoleapp/AppLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +27,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2gQqS2Y8KrlX6EQ8w8zwlzQMiJr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,7 +40,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/davidnicolette/Documents/Projects/java-console-aframe-template/java-aframe-console-template"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

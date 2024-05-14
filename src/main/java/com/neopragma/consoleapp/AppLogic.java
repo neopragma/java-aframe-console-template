@@ -1,4 +1,4 @@
-package com.neopragma.consoleapp.logic;
+package com.neopragma.consoleapp;
 
 import com.neopragma.consoleapp.infrastructure.System;
 public class AppLogic {

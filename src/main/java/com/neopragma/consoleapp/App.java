@@ -1,7 +1,6 @@
 package com.neopragma.consoleapp;
 
 import com.neopragma.consoleapp.infrastructure.System;
-import com.neopragma.consoleapp.logic.AppLogic;
 
 public class App {
     private System system;

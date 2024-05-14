@@ -12,7 +12,6 @@ public class System {
     public static System createNull() {
         return new System(new StubbedSystem());
     }
-
     public System(SystemWrapper systemOut) {
         this.systemOut = systemOut;
     }
