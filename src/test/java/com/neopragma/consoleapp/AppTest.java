@@ -1,6 +1,5 @@
 package com.neopragma.consoleapp;
 
-import com.neopragma.consoleapp.infrastructure.OutputTracker;
 import com.neopragma.consoleapp.infrastructure.System;
 import org.junit.jupiter.api.Test;
 
@@ -9,11 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AppTest {
     @Test
     public void it_writes_default_message_to_stdout() {
-        OutputTracker systemOutput = OutputTracker.create();
         System system = System.createNull();
-        system.trackOutput(systemOutput);
+        OutputTracker outputTracker = system.trackOutput();
         App app = new App(system);
         app.run();
-        assertEquals("Greetings from the Incredible App!", systemOutput.getFirst());
+        assertEquals("Greetings from the Incredible App!",
+                outputTracker.data().getFirst());
     }
 }

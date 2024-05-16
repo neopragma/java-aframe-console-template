@@ -1,11 +1,14 @@
 package com.neopragma.consoleapp.infrastructure;
 
+import com.neopragma.consoleapp.OutputListener;
+import com.neopragma.consoleapp.OutputTracker;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class System {
     private SystemWrapper systemOut;
-    private List<SystemOutputListener> outputListeners = new ArrayList<>();
+    private final OutputListener<String> outputListener = new OutputListener<>();
     public static System create() {
         return new System(new RealSystem());
     }
@@ -15,21 +18,16 @@ public class System {
     public System(SystemWrapper systemOut) {
         this.systemOut = systemOut;
     }
+    public OutputTracker<String> trackOutput() {
+        return outputListener.createTracker();
+    }
     public void writeStdout(String message) {
+        outputListener.track(message);
         systemOut.writeStdout(message);
-        notifyListeners(message);
     }
     public void exit(int statusCode) {
+        outputListener.track("Exiting with status " + statusCode);
         systemOut.exit(statusCode);
-        notifyListeners("Exiting with status " + statusCode);
-    }
-    private void notifyListeners(String message) {
-        outputListeners.forEach(listener -> {
-            listener.stdoutWritten(new SystemOutputEvent(this, message));
-        });
-    }
-    public void trackOutput(OutputTracker outputListener) {
-        this.outputListeners.add(outputListener);
     }
     private interface SystemWrapper {
         void writeStdout(String message);
